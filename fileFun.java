@@ -24,7 +24,7 @@ public class fileFun
     
     //System.out.println (inputLine);         //displays file
     
-    for(;scanFile.hasNext();)
+    for(int i = 1;scanFile.hasNext();i++)
     {
       System.out.println(inputLine.replaceAll(""," "));
     }
